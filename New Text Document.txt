@@ -1,0 +1,9 @@
+anshvardhandixit_db_user
+
+sHqQiBaFI9DMQk2j
+
+
+mongodb+srv://anshvardhandixit_db_user:<db_password>@anshweb.g890rbp.mongodb.net/?appName=ANSHWEB
+
+
+ANSHWEB

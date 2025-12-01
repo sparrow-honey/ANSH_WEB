@@ -1,0 +1,598 @@
+/* ==========================================================================
+   ORIGINAL DESKTOP STYLES (MODIFIED to remove fixed heights)
+   ========================================================================== */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* Added box-sizing to prevent padding from breaking widths on all devices */
+    box-sizing: border-box; 
+}
+main{
+    /* Removed height: 100% as it conflicts with content flow */
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+     font-family: "Science Gothic", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18, 18, 67);
+    border: 2px solid rgb(143, 90, 183);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0px 20px;
+}
+nav ul li a {
+    text-decoration:none ;
+    color: white;
+    display: inline-block;
+    border: 2px solid transparent;   
+    transition:  0.5s ease; 
+    
+}
+nav ul li a:hover{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.18);
+    /* text-decoration: underline; */
+    border-bottom: 2px solid rgb(149, 190, 255);
+    color:rgb(96, 96, 136);
+
+}
+.highlight{
+    font-weight: bold;
+    color: rgb(226, 43, 43);
+    text-decoration: underline;
+}
+.alert {
+    background-color: rgba(0, 255, 0, 0.15);
+    color: #90ff8a;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid rgb(0, 255, 150);
+    border-color: #21ff50;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+/* ____________________________________________________________________________________________________ */
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    /* margin:75px 0px; */
+    margin: 130px 0px;
+    align-items: center;
+}
+.firstsection >div{
+    width: 30%;
+}
+.leftdiv{
+
+    text-align: center;
+    font-size: 3rem;
+    /* margin: 80px 0px; */
+}
+.purple{
+    color: rgb(166, 90, 238);
+    
+}
+.rightdiv{
+
+}
+.rightdiv img{
+  width: 80%;
+}
+#element{
+    color: rgb(166, 90, 238);
+}
+main hr{
+    border:0px;
+    background: rebeccapurple;
+    height: 2px;
+    margin: 50px 70px;
+}
+/* ____________________________________________________________+________________ */
+.second{
+    max-width: 80vw;
+    margin: auto ;
+    min-height: 128vh;
+    /* border: 2px solid red; */
+}
+.second h1{
+    font-size: 1.9rem;
+}
+.text-grey{
+    color: grey;
+}
+
+.second .box {
+    width: 100%;
+    min-height: auto;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+
+
+.second .box .tech{
+    margin:20px 2px;
+    width: 30%;
+    height: 50vh;
+    background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);         
+  -webkit-backdrop-filter: blur(10px);  
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.second .box .tech .logo img{
+    height:30% ;
+    width: 30%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.img span{
+    margin: 0px 15px;
+    color: cornflowerblue;
+   
+}
+.FRONTEND{
+ margin: 0px 0px;
+ /* border: 2px solid red; */
+ display: flex;
+ margin: 0px 0px;
+ flex-direction: column;
+}
+#HTML{
+    color: rgb(255, 123, 28);
+}
+#CSS{
+    color: blue;
+}
+#Js{
+    color:yellow;
+}
+.text{
+    margin-top: 5px;
+    color: rgb(165, 108, 218);
+}
+.second .box .tech .desc{
+    color: rgb(166, 90, 238);
+    text-align: center;
+    padding: 3px;
+    font-size: 1.3rem;
+}
+#one{
+    margin: 20px;
+}
+.second .box .tech .BACKEND{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second .box .tech .BACKEND img{
+    height: 20%;
+    width: 20%;
+    margin: 0px 10px;
+}
+.EMN{
+    color: rgb(117, 217, 117);
+}
+.second .box .tech .lang{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second .box .tech .lang img{
+    height: 30%;
+    width: 30%;
+}
+.lang{
+    /* border: 2px solid red; */
+}
+.l{
+    /* border: 2px solid red; */
+    margin: 0px 1.3rem;
+    color: chartreuse;
+}
+.second .box .tech .templates{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second .box .tech .templates img{
+    height: 20%;
+    width: 20%;
+    margin: 18px 20px;
+}
+.t{
+    margin: 0rem 1.7rem;
+    color: rgb(9, 255, 0);
+}
+#templa{
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+.second .box .tech .kalilinux img{
+    height: 30%;
+    width: 30%;
+
+}
+.second .box .tech .kalilinux{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: red;
+}
+#kali{
+    font-size: 1.1rem;
+}
+#two{
+   margin-bottom: 50px;
+   margin-top: 10px;
+}
+/* _____________________________________________________________________________________________________ */
+.third{
+    max-width: 80vw;
+    /* max-height: 100vh; <-- REMOVED */
+    margin: auto;
+    padding-bottom: 50px; /* Ensure space after content */
+    
+}
+.third .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 30px;
+  border:2px solid green;
+  font-size: 1.5rem;
+  /* color: rgb(240, 146, 255); */
+  color: rgb(148, 255, 146);
+  /* height: 30em; */
+   background: rgba(194, 92, 92, 0.044); 
+  backdrop-filter: blur(10px);         
+  -webkit-backdrop-filter: blur(10px);  
+  border-radius: 10px;
+  border: 1px solid rgba(5, 255, 109, 0.318);
+}
+.third h1{
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+/* __________________________________________________________________________________ */
+.four{
+    max-width: 80vw;
+    /* max-height: 100vh; */
+    margin: auto;
+}
+/* _______________________________________________________________ */
+.five{
+     max-width: 80vw;
+    /* max-height: 100vh; <-- REMOVED */
+    margin: auto;
+    padding-bottom: 50px; /* Ensure space after content */
+}
+.five .container{
+    /* height: 100%; <-- REMOVED */
+    display: flex;
+    flex-direction: column;
+}
+.five .container a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(227, 174, 249);
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: rgba(19, 15, 15, 0.553);
+    display: inline-block;
+    transition: 0.3s ease;
+    width: 35%;
+}
+.five .container a:hover{
+    background-color: rgb(106, 45, 133);
+    color: rgb(52, 227, 107);
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+.five .container .links{
+    display: flex;
+    color: yellowgreen;
+    flex-direction: column;
+    /* Removed restrictive positioning */
+    align-items: flex-start; 
+    margin-left: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+ 
+    height: 100%;
+}
+form{
+   
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 70%;
+    background: rgba(255, 255, 255, 0.049); 
+  backdrop-filter: blur(10px);         
+  -webkit-backdrop-filter: blur(10px);  
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input , input[type="email"] {
+    height: 30px;
+    text-align: center;
+    padding: 2px 0px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgba(98, 33, 116, 0.4);
+    width: 70%;
+    border-color: aquamarine;
+}
+
+label{
+    margin: 5px 0px;
+}
+input::placeholder{
+    color: rgba(157, 196, 230, 0.711);
+}
+textarea{
+    
+    background-color: rgba(98, 33, 116, 0.4);
+    width: 70%;
+    color: greenyellow;
+    font-size: 1.1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px 0px;
+    height: 150px;
+}
+textarea::placeholder{
+
+    color: rgba(157, 196, 230, 0.711);
+}
+button{
+    margin: 20px 0px;
+    width: 50%;
+    height: 40px;
+    border-radius: 7px;
+    color: white;
+    font-size: 1.01rem;
+    padding: 0px 10px;
+    display: inline-block;
+    background-color: rgb(121, 20, 155);
+}
+button:hover{
+    background-color: rgb(67, 107, 99);
+    transition: 0.7s ease;
+    transform: scale(1.1);
+    color: rgb(33, 255, 21);
+}
+/* __________________________________________________ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES (TABLETS, PHONES, ANDROID, IPHONE)
+   ========================================================================== */
+
+/* TABLETS & SMALL LAPTOPS (Max Width: 1024px) */
+@media (max-width: 1024px) {
+    /* Adjust main layout margins */
+    .firstsection {
+        margin: 80px 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .firstsection > div {
+        width: 80%; /* Widen content */
+        margin-bottom: 30px;
+    }
+    
+    .leftdiv {
+        font-size: 2.5rem; /* Reduce font size */
+    }
+
+    /* SECTION 2: WORK - Fix Overlap & Grid */
+    .second {
+        min-height: auto; /* Remove fixed 128vh to prevent overlap */
+        height: auto;
+        max-width: 95vw;
+    }
+
+    /* 2 Items Per Row Logic */
+    .second .box .tech {
+        width: 45%; /* Fits 2 per row with margins */
+        height: auto; /* Removed fixed height */
+        min-height: 400px; /* Ensure uniform look */
+        padding: 15px;
+        display: flex;
+        flex-direction: column; /* Content column wise */
+        justify-content: flex-start;
+    }
+    
+    .second .box .tech .desc {
+        font-size: 1.1rem;
+    }
+
+    /* SECTION 3: ABOUT (Ensure dynamic height) */
+    .third {
+        padding-bottom: 50px; /* Maintain good separation */
+    }
+
+    /* SECTION 5: CONTACT (Ensure dynamic height) */
+    .five {
+        max-width: 95vw;
+        height: auto; 
+        padding-bottom: 50px;
+    }
+    
+    .five .container a {
+        width: 60%; /* Wider buttons */
+    }
+    
+    form {
+        width: 80%; /* Wider form */
+        height: auto;
+        padding: 30px 0;
+    }
+}
+
+/* PHONES (Max Width: 768px) */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+    .firstsection {
+        margin: 50px 0;
+    }
+
+    .leftdiv {
+        font-size: 2rem;
+    }
+    
+    /* SECTION 2: Work */
+    .second .box .tech {
+        width: 46%; 
+        margin: 10px 1%; /* Adjust margin to fit */
+        min-height: 350px;
+    }
+    
+    .tech img {
+        width: 40% !important;
+        height: auto;
+    }
+    
+    .second .box .tech .desc {
+        font-size: 0.9rem;
+    }
+
+    /* SECTION 3: ABOUT */
+    .third .container {
+        font-size: 1.1rem;
+        padding: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    /* CONTACT SECTION - Centering Fix */
+    .five .container .links {
+        /* left: 0; */
+        align-items: center; /* Ensures links are centered */
+        text-align: center;
+        margin-left: 0; /* Remove left margin for centering */
+    }
+    
+    .five .container a {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    
+    form {
+        width: 90%;
+    }
+    
+    input, textarea {
+        width: 85%;
+    }
+}
+
+/* SMALL PHONES (Max Width: 480px) */
+@media (max-width: 480px) {
+    .left {
+        font-size: 1.2rem;
+    }
+    
+    .leftdiv {
+        font-size: 1.5rem;
+    }
+
+    /* Work */
+    .second .box .tech {
+        width: 46%; 
+        padding: 10px;
+        min-height: 300px;
+    }
+    .lang{
+        width: 100%;
+    }
+    .img{
+        width: 70%;
+    }
+    .lang img{
+        margin: 0px 10px;
+        height: 30%;
+
+        
+    }
+    #kali{
+        min-width: 60%;
+    }
+    .tech h4 {
+        font-size: 0.9rem;
+    }
+    
+    .img span {
+        margin: 0 5px;
+        font-size: 0.8rem;
+    }
+    
+    /* Contact */
+    .five h1, .second h1, .third h1 {
+        font-size: 1.5rem;
+    }
+    
+    button {
+        width: 80%;
+    }
+}

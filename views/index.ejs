@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANSH Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="left">ANSH_AVD</div>
+        <div class="right"><ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="#second">WORK</a></li>
+        <li><a href="#third">ABOUT</a></li>
+        <li><a href="#contact">CONTACT ME</a></li>
+        </ul></div>
+    </nav>
+
+    <% if (msg) { %>
+    <div class="alert">
+        THANK YOU!&nbsp;<span class="highlight" id="EJS"><%= msg %></span> 
+         &nbsp;&nbsp;ANSH WILL GET YOUR MESSAGE AND REPLY SOON...
+    </div>
+<% } %>
+
+
+</header>
+<main>
+    <section class="firstsection">
+    <div class="leftdiv">HEY! I AM <span class="purple">ANSH</span> 
+        <div class="div"> WELCOME TO MY WEB</div>
+         <span id="element"></span>
+    </div>
+        <div class="rightdiv">
+            <img src="IMG/DeV_PNG2.png" alt="">
+        </div>
+    </section>
+    <hr>
+    <section class="second" id="second">
+       <span class="text-grey">Work I Have Done .</span>
+        <h1>KNOWN TECHNOLOGIES.</h1>
+        <div class="box">
+            <div class="tech">
+                <div class="logo">
+                    <div class="text"><h4>FRONTEND</h4></div>
+                    <div class="img"><img src="IMG/HTML.png" alt="">
+                    <span class="FRONTEND"><span id="HTML">HTML<i class="ri-html5-line"></i></span> <span id="CSS">CSS <i class="ri-css3-line"></i></span><span id="Js">JavaScript <i class="ri-javascript-line"></i></span></span>
+                    </div>
+                </div>
+                <p class="desc" id="one">Proficient in HTML, CSS, and JavaScript  with experience in creating modern, responsive, and interactive web pages.</p>
+            </div>
+            <div class="tech">
+            <div class="BACKEND">
+                <div class="text"><h4>BACKEND</h4></div>
+                <div class="img">
+                <img src="IMG/express-js3.png" alt="">
+                <img src="IMG/Mongodb.png" alt="">
+                <img src="IMG/nodejs.png" alt="">
+            </div>
+            <span class="EMN">Express Js, MongoDB<i class="ri-database-line"></i>, NodeJs </span>
+            </div>
+            <p class="desc">Backend developer with hands-on experience in Node.js, Express, and MongoDB, capable of building secure, scalable, and efficient server-side applications.</p>
+        </div>
+            <div class="tech">
+                <div class="lang">
+                    <div class="text"><h4>LANGUAGES</h4></div>
+                    <div class="img">
+                        <img src="IMG/java.png" alt="">
+                        <img src="IMG/python.png" alt="">
+                    </div>
+                    <div class="language">
+                    <span class="l" id="java"> JAVA</span>
+                    <span class="l" id="py">Python</span></div>
+                </div>
+                <p class="desc">Comfortable working with Java and Python, and <u><b>completed Data Structures and Algorithms in Java </u></b>with a strong focus on problem solving.</p>
+            </div>
+            <div class="tech">
+                <div class="templates">
+                    <div class="text"><h4>TEMPLATES</h4></div>
+                    <div class="img">
+                        <img src="IMG/EJS.png" alt="">
+                        <img src="IMG/pug.png" alt="">
+                    </div>
+                    <div class="templ">
+                        <span class="t">EJS</span> <span class="t">PUG</span>
+                    </div>
+                </div>
+                <p class="desc" id="templa">Experienced with EJS and Pug template engines for building dynamic and <br> server-side rendered web pages.</p>
+            </div>
+            <div class="tech">
+                <div class="kalilinux">
+                <div class="text"><h4>OS</h4></div>
+                <div class="img"><img src="IMG/kali.png" alt=""></div>
+                <span class="KALI">KALI LINUX</span>
+                </div>
+                <p class="desc" id="kali">Kali Linux has strengthened my understanding of ethical hacking <br>
+                    I have 2 years of experience in Kali Linux and know tools like Nmap, Metasploit, Burp Suite and Hydra for basic security testing and analysis.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <hr id="two">
+    <section class="third" id="third">
+        <h1>ABOUT ME </h1>
+        <div class="container">
+            <p>I’m <u> <b>ANSH VARADHAN DIXIT</b></u>, <br> a passionate Full-Stack Web Developer who loves turning ideas into clean, functional, and visually appealing digital experiences.
+
+            <br> <br>I work with HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and view engines like EJS and Pug. In addition to web development, I also have strong skills in Java and Python, and I have completed Data Structures and Algorithms (DSA) in Java. I enjoy creating projects in both Java and Python, which helps me strengthen my logic-building and problem-solving abilities.
+
+            <br><br>I focus on writing code that is simple, scalable, and user-friendly. I’m constantly learning, exploring new tools, and building projects that challenge me to grow as a developer. My goal is to create meaningful digital solutions and contribute to real-world problem-solving through code.
+
+            When I’m not coding, I enjoy experimenting with new technologies, improving my skills, and working on creative ideas.</p>
+        </div>
+    </section>
+    <hr id="three">
+    <section class="four" id="projects">
+
+    </section>
+    <hr id="four">
+    <section class="five" id="contact">
+        <h1>CONTACT ME</h1>
+        <div class="container">
+            <div class="links">
+                <span>VISIT MY LINKEDIN- &nbsp;&nbsp;</span><a href="https://www.linkedin.com/in/ansh-vardhan-dixit" target="_blank" >www.linkedin.com/in/ansh-vardhan-dixit
+                &nbsp;<i class="ri-linkedin-box-fill"></i></a>
+                <span>Gmail-</span>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anshvardhandixit@gmail.com" target="_blank">&nbsp;&nbsp;anshvardhandixit@gmail.com <i class="ri-mail-line"></i></a>
+            </div>
+            <div class="form">
+                <form action="/submit" method="post">
+                    <label for="NAME">NAME</label>
+                    <input type="text" id="NAME" placeholder="ENTER YOUR NAME" name="NAME">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" placeholder="ENTER YOUR EMAIL" name="email">
+                    <label for="message">MESSAGE</label> 
+                    <textarea name="message" id="message" placeholder="ENTER YOUR MESSAGE" rows="4" cols="40"></textarea>
+                    <button class="btn">SUBMIT</button>
+                </form>
+            </div>
+    </div>
+        
+    </section>
+</main>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['WEB-DEVELOPER', ' A FULL STACK DEVELOPER',],
+      typeSpeed: 50,
+    });
+
+  </script>
+
+  
+</body>
+</html>
